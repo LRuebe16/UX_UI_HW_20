@@ -1,143 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Skills</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
   <link href="css/index.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>UX/UI Homework 20</title>
 </head>
 
 <body>
-<!-- Top Navigation Bar -->
-<div id="fixedHeader">
-  <header>    
-      <header ul>
-        <div class="floatleft">
-          <img src="images/LOGO-80.png">
-        </div>
-        <div class="floatright">
-          <li><a href="#heroImgBottom">ABOUT ME</a></li>
-          <li><a href="#downArrowScroll">WORK</a></li>
-          <li><a href="#mySkillsBottom">SKILLS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-         </div>
-      </ul>
-  </header>
+<!-- Bootstrap Navigation -->
+<header>
+<ul class="nav justify-content-end">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Case Study</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+</ul>
+</header>
+
+
+<!-- Bootstrap Jumbotron -->
+<div class="jumbotron .jumbotron-fluid">
+    <img src="images/GDRhero.png" style="width: 100%;">
+    <h2>Resposive Non Profit Organization Redesign Group Project (GDRNT)</h2>
 </div>
 
-<!-- Hero Section-->
-<section id="heroGrid">
-    <div class="flexContainer categoryGridAreaTop">
-    <p><h1>Hello!  I'm Lauren Ruebe
-      <h2>UX/UI Designer</h2>
-    </h1>
-    <p> <strong>People call me “Lo” for short!</strong> <br>
-      I specialize in UI design and User Research with 10 years of professional Graphic Design experience. I enjoy creating simple and clean solutions to problems faced by users.
-    </p>
-    <br>
-    </div> 
-  
-    <div class="heroImg categoryGridAreaTop">
-    <img src="images/HP_MeinBubble.png">
-    </div>
-
-</section>
-
-<div class="arrow bounce">
-  <a class="fa fa-arrow-down fa-4x" href="#downArrowScroll"></a>
-</div>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up fa-1x"></span></button>
+<!-- Jumbotron -->
 
 
 
-  <!-- My Work section coded using CSS Grid-->
-  <section id="downArrowScroll">
- 
-  <div class="subHeading">
-    <h1>MY WORK</h1>
-  </div>
-<div id="workGrid">
-  <div id="GDRNT" class="categoryGridArea">
-     <div class="heading">    
-          <h3>GREAT DANE RESCUE</h3>
-          <p>Responsive Redesign focusing on the wants/needs of the user to make a connection with the dogs.</p>
-          <div class="button2">VIEW CASE STUDY</div>
-      </div>
-  </div>
-  <div id="CSA" class="categoryGridArea">
-    <div class="heading">
-        <h3>CANADIAN SPACE AGENCY</h3>
-        <p>Responsive Redesign by condensing the information and navigation to be a simple & fun user experience.</p>
-        <div class="button2">VIEW CASE STUDY</div>
-    </div>
- </div>
- <div id="TOTO" class="categoryGridArea">
-    <div class="heading">
-      <h3>TOTO</h3>
-      <p>Created a mobile traveling app soley for people traveling with their fur babies.</p>
-      <div class="button2">VIEW CASE STUDY</div>
-      </div>
-  </div>
-  <div id="graphicDesign" class="categoryGridArea">
-     <div class="heading">    
-          <h3>GRAPHIC DESIGN PORTFOLIO</h3>
-          <p>Check out my Graphic Design website! Here are some examples of my work throughout the years.</p>
-          <div class="button2">CHECK IT OUT!</div>
-      </div>
-  </div>
-</div>
-</section>
 
-<!-- About Me Section-->
-<section id="heroImgBottom">
-  <div class="content">
-    <h1>ABOUT ME</h1>
-    <img src="images/MeAtDesk.png">
-    <p>
-      Highly driven UX/UI Designer specializing in User Interface Design and User Research with 10 years of professional Graphic Design experience. I have a passion for creating simple and clean design solutions to solve problems and improve upon existing methodologies. With my sport teams background and 4 years of project management experience, I excel with multitasking, working fast in handling high pressure situations while always maintaining a positive uplifting attitude. 
-    </p>
-    <button>
-      DOWNLOAD RESUME
-    </button>
-  </div>
-</section>
-
-  <!-- My UX Skills section-->
-  <section id="mySkillsBottom">
-    <h1>MY UX/UI SKILLS</h1>
-    
-    <div class="flexContainerBottom">
-      <div>
-        <h3>SKILLS</h3>
-        <img src="images/Skills_White.png">
-      </div>
-    <div class="codingKnowledge">
-      <h3>CODING KNOWLEDGE</h3>
-      <img src="images/CodingWhite.png">
-      </div>
-    </div>
-
-  </section>
-
-   <!-- Contact section-->
-<section id="contact">
-  <h1>HIRE ME!</h1>
-  <div class="hireMe">
-    <div class="email" href="mailto:laurenrueb@gmail.com"> 
-     <a href="mailto:laurenrueb@gmail.com"> <button><i class="material-icons" style="font-size:36px">email</i>Email Me </button></a>
-      </div>
-  
-    <div class="linkIn" >
-      <a href="https://www.linkedin.com/in/lauren-ruebe/"><button><i class="fa fa-linkedin" style="font-size:36px"></i>LinkedIn </button></a>
-    </div>
-</div>
-</section>
 
 <!-- Footer -->
 <footer> 
@@ -152,12 +71,12 @@
       </div>
   </ul>
 </footer>
- <!-- Preloader -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<div class="preloader"><img src="images/LOlogo.png"></div>
 
 </body>
 <script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </html>
 
 

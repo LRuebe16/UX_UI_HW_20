@@ -5,6 +5,7 @@ body{
   background-size: 100%;
   background-repeat: repeat-y;
   margin: 0px;
+  padding: 0px;
 }
 a { color: #2E7476; 
   text-decoration: none;
@@ -129,13 +130,13 @@ header .floatright {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  margin: 0px;
-  padding: 0px;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 .jumbotron h2 {
   Display: flex;
-  background-color: #2E7476;
-  color:#E8C9AD;
+  background-color: #2E7476 !important;
+  color:#E8C9AD !important;
   margin: 0px;
   width: 100%;
   justify-content: center;

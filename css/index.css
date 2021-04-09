@@ -199,3 +199,18 @@ footer li {
   color: #1A2F30;
 }
 
+@media only screen and (max-width: 1000px) {
+  body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}

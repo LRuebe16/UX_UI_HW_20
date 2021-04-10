@@ -25,6 +25,8 @@ h1{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: rgb(1, 59, 59);
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 h2{
   font-size: 30px;
@@ -145,6 +147,20 @@ button{
 }
 .introimage{
   text-align: center;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2E7476;
+  outline: solid red 1px;
+  height: 100px;
+}
+.title h1{
+  color: #E8C9AD;
+  margin: 10px;
+  padding-top: 8px;
+  outline: solid red 1px;
 }
 
 /*FOOTER*/

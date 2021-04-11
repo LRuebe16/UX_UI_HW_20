@@ -141,7 +141,7 @@ button{
   padding: 0px;
 }
 .intro {
-  outline: solid red 1px;
+
   text-align: center;
 }
 
@@ -154,7 +154,6 @@ button{
   align-items: center;
   justify-content: center;
   background-color: #2E7476;
-  outline: solid red 1px;
   height: 100px;
 }
 .title h1{
@@ -162,7 +161,6 @@ button{
   color: #E8C9AD;
   margin: 10px;
   padding-top: 8px;
-  outline: solid red 1px;
 }
 
 /*FOOTER*/
@@ -198,6 +196,20 @@ footer li {
   float:right;
 }
 
+.floatright {
+    float: right;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+.floatleft {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+
+
 /*social media icons*/
 .fa {
   padding: 8px;
@@ -211,12 +223,12 @@ footer li {
   opacity: 0.8;
 }
 .fa-facebook {
-  background: #E8C9AD;
-  color: #1A2F30;
+  background: transparent;
+  color: #E8C9AD;
 }
 .fa-linkedin {
-  background: #E8C9AD;
-  color: #1A2F30;
+  background: transparent;
+  color: #E8C9AD;
 }
 
 @media only screen and (max-width: 1000px) {
